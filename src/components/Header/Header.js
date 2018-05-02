@@ -5,7 +5,7 @@ const Header = () => (
     <header>
       <h1 className="fake-heading">
         <span>Belhassen Single Page Application</span>
-        
+
       </h1>
       <ul>
         <li>

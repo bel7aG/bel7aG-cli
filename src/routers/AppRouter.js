@@ -14,7 +14,6 @@ const Career = () => (
     <h1>Belhassen Gharsallah a Web Developer: JS JSX ES6 ES7 React Jest Sass Git SVG </h1>
   </div>
 );
-
 const Contact = () => (
     <div className="fake-box fake-div-two">
       <a href="https://github.com/bel7aG" target="_blank">
