@@ -5,7 +5,7 @@ import Header from '../components/Header';
 const Home = () => (
   <div>
     <div className="fake-box fake-div-one">
-      <h1>Belhassen Gharsallah <br />Thank you to join my CLI</h1>
+      <h1>Belhassen Gharsallah <br />Thank you to join my CLI <br /> bel7aG</h1>
     </div>
   </div>
 );
