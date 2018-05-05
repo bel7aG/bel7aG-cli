@@ -17,13 +17,13 @@ const Career = () => (
 );
 
 const Contact = () => (
-  <a href="https://github.com/bel7aG" target="_blank">
     <div className="fake-box fake-div-two">
-      <h1>
-        https://github.com/bel7aG
-      </h1>
+      <a href="https://github.com/bel7aG" target="_blank">
+        <h1>
+          https://github.com/bel7aG
+        </h1>
+      </a>
     </div>
-  </a>
 );
 
 const AppRouter = () => (
