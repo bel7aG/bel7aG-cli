@@ -59,7 +59,7 @@
   box-shadow: 0 2rem 4rem rgba(#000, .55);
   transition: all 300ms;
   animation-name: fakebox;
-  animation-duration: 1.2s;
+  animation-duration: 850ms;
 
   &:hover {
     transform: translateY(-5px);
@@ -72,39 +72,4 @@
     box-shadow: 0 0rem 6rem rgba(#000, .75);
   }
 
-}
-
-@keyframes fakebox {
-  0% {
-    transform: translateX(-200%) rotate(0);
-    opacity: .1;
-    text-shadow: 0 0 7rem #ff0000;
-    background-color: #777;
-  }
-
-  50% {
-    transform: translateX(7rem) rotate(4deg);
-    opacity: .56;
-    background-color: #444;
-  }
-
-  100% {
-    transform: translateX(0) rotate(0deg);
-    opacity: 1;
-    background-color: #333;
-  }
-}
-
-@keyframes ops {
-  0% {
-    letter-spacing: 5px;
-  }
-
-  50% {
-    letter-spacing: 7px;
-  }
-
-  100% {
-    letter-spacing: 5px;
-  }
 }

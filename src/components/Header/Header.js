@@ -4,10 +4,8 @@ const Header = () => (
   <div className="fake-div">
     <header>
       <h1 className="fake-heading">
-        <span>bel7aG REACT CLI</span>
-        { /* Delete the span and the ok className
-          and delete all styles in styles/scss/components/Header.scss
-        () => `HAVE A GOOD FUCK`; */}
+        <span>Belhassen Single Page Application</span>
+        
       </h1>
       <ul>
         <li>

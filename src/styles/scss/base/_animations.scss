@@ -1,0 +1,43 @@
+@keyframes fakebox {
+  0% {
+    transform: translateX(-200%) rotate(0) ;
+    opacity: .1;
+    text-shadow: 0 0 7rem #ff0000;
+    background-color: #777;
+  }
+
+  30% {
+    transform: translate(17rem, 2rem) rotate(5deg);
+    opacity: .56;
+    background-color: #444;
+    color: #333;
+    text-shadow: 0 0 3rem #c9bfbf;
+  }
+
+  55% {
+    transform: translate(-7rem, 2rem) rotate(-5deg);
+    color: #333;
+    text-shadow: 0 0 3rem #c9bfbf;
+  }
+
+  100% {
+    color: #fff;
+    transform: translate(0);
+    opacity: 1;
+    background-color: #333;
+  }
+}
+
+@keyframes ops {
+  0% {
+    letter-spacing: 5px;
+  }
+
+  50% {
+    letter-spacing: 7px;
+  }
+
+  100% {
+    letter-spacing: 5px;
+  }
+}

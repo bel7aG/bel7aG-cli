@@ -9,10 +9,9 @@ const Home = () => (
     </div>
   </div>
 );
-
 const Career = () => (
   <div className="fake-box fake-div-one">
-    <h1>Belhassen Gharsallah a Web Developer: React, Router, Redux, Webpack, SCSS, SVG, illustrator, HTML5, ES6, ES7</h1>
+    <h1>Belhassen Gharsallah a Web Developer: JS JSX ES6 ES7 React Jest Sass Git SVG </h1>
   </div>
 );
 
@@ -26,15 +25,20 @@ const Contact = () => (
     </div>
 );
 
+const NotFound = () => (
+  <div className="not-found">Not Found 404</div>
+);
+
 const AppRouter = () => (
   <BrowserRouter>
     <div>
       <Header />
       <Switch>
         <Route path="/" component={Home} exact/>
-        <Route path="/Career" component={Career} />
-        <Route path="/Contact" component={Contact} />
+        <Route path="/Career" component={Career} exact/>
+        <Route path="/Contact" component={Contact} exact/>
         {/* CODE YOUR ROUTERS HER */}
+        <Route component={NotFound} />
       </Switch>
     </div>
   </BrowserRouter>
